@@ -28,9 +28,7 @@ highscore.innerHTML = '0';
 setHighscore = () => {
   if (currentCount.innerHTML > highscore.innerHTML) {
     highscore.innerHTML = currentCount.innerHTML;
-
-    currentCount.innerHTML = 0;
-  }
+  } currentCount.innerHTML = 0;
 }
 
 isBot = (door) => {
